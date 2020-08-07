@@ -28,6 +28,16 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
@@ -39,11 +49,77 @@ a {
 }
 
 a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-header a:link, #area-header a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-a:hover {
+#area-header a:hover {
     color: #f7b600;
     background: #FFF;
+    text-decoration: none;
+}
+
+/* Formatação area principal */
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-posts {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.post-date {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Formatação area lateral */
+
+.lateral-content {
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recent-posts {
+    font-size: 0.8em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#lateral-menu {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 10px 0px;
 }
